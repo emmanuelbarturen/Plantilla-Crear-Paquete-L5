@@ -1,0 +1,25 @@
+{
+    "name": "ebarturen/autodeploy",
+    "description": "paquete para desplegar automaticamente un proyecto laravel al hacer push al repositorio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Barturen",
+            "email": "emmanuelbarturen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7",
+        "illuminate/support":"~5.0"
+    },
+
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Ebarturen\\Autodeploy\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
